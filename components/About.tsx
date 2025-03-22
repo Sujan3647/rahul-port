@@ -80,7 +80,7 @@ export default function About({}: Props) {
           <br />I am also the co-founder of{" "}
           <span className="text-blue-500 font-semibold">
             <a
-              href="https://instagram.com/localhostcoders"
+              href="https://www.apnividya.in/"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -110,10 +110,8 @@ export default function About({}: Props) {
               </span>
             </a>
           </span>
-          , a community dedicated to empowering aspiring developers.
-          <br /> <br /> Alongside my tech endeavors, I am an avid reader and
-          enjoy delving into subjects such as psychology and philosophy while
-          enjoying a{" "}
+          , a startup company Funded by the DIT.
+          <br /> <br /> Outside of technology, I love reading about psychology and philosophy while enjoying {" "}
           <span className="text-blue-500 font-semibold">
             fresh cup of coffee!
           </span>
