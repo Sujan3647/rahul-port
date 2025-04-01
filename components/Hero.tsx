@@ -12,10 +12,10 @@ export default function Hero({ }: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hey, Dipta Chakraborty here",
-      "I build IoT Devices.",
-      "I develop web & mobile application.",
-      "I work in CyberSecurity & AIML.",
-      "I specialize in cloud computing"
+      "I mentor startups & innovation projects",
+      "I specialize in business development & incubation",
+      "I have expertise in Renewable Energy & IoT",
+      "I excel in project leadership & strategy"
     ],
     loop: true,
     delaySpeed: 1000,
@@ -30,7 +30,7 @@ export default function Hero({ }: Props) {
         height={100}
         className="relative h-32 w-32 rounded-full mx-auto object-cover"
         src={heroImg}
-        alt="Rahul Dey profile image"
+        alt="dipta chakraborty profile image"
         priority={true}
         loading="eager"
       />

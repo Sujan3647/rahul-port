@@ -6,7 +6,7 @@ import Link from "next/link";
 
 type Props = {};
 
-export default function Header({}: Props) {
+export default function Header({ }: Props) {
   return (
     <header className="sticky top-0 py-3 -mx-6 md:p-3 flex items-start justify-around md:mx-auto z-50 xl:items-center backdrop-blur-sm bg-slate-300/30 dark:bg-slate-800/40 ">
       <motion.div
@@ -45,7 +45,7 @@ export default function Header({}: Props) {
           </li>
           <li>
             <Link
-              href="https://twitter.com/NickK2305"
+              href="https://www.instagram.com/diptachakrabortydc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
             >
               <svg
@@ -60,7 +60,7 @@ export default function Header({}: Props) {
           </li>
           <li>
             <Link
-              href="https://github.com/Nick-h4ck3r"
+              href="https://github.com/dipta"
               className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
             >
               <svg
@@ -79,7 +79,7 @@ export default function Header({}: Props) {
           </li>
           <li>
             <Link
-              href="https://www.linkedin.com/in/nickk2305/"
+              href="https://www.linkedin.com/in/dipta-chakraborty-84b9b9184"
               className="text-gray-800 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
             >
               <svg
