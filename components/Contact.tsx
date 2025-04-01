@@ -16,7 +16,7 @@ export default function Contact({ }: Props) {
 
         <div className="flex flex-wrap gap-6 justify-center font-outfit text-xl font-extralight text-gray-500 mt-14">
           <p className="hover:text-black dark:hover:text-gray-300 duration-200">
-            <a href="https://youtube.com/@nickk2305">youtube</a>
+            <a href="https://www.instagram.com/diptachakrabortydc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instragram</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -38,7 +38,7 @@ export default function Contact({ }: Props) {
             </span>
           </p>
           <p className="hover:text-black dark:hover:text-gray-300 duration-200">
-            <a href="https://nickk2305.hashnode.dev/">blog</a>
+            <a href="https://www.facebook.com/dipta.chakrabortydc.7">Facebook</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -82,7 +82,7 @@ export default function Contact({ }: Props) {
             </span>
           </p> */}
           <p className="hover:text-black dark:hover:text-gray-300 duration-200">
-            <a href="https://www.linkedin.com/in/">linkedin</a>
+            <a href="https://www.linkedin.com/in/dipta-chakraborty-84b9b9184">linkedin</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -169,7 +169,7 @@ export default function Contact({ }: Props) {
           <span className="text-blue-500">
             <a
               target={"_blank"}
-              href="https://www.instagram.com/diptachakrabortydc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              href="https://www.linkedin.com/in/dipta-chakraborty-84b9b9184"
               rel="noreferrer"
             >
               Dipta
