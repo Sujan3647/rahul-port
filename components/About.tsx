@@ -6,7 +6,7 @@ import profilePic from "public/extraImages/profilePic.jpeg";
 
 type Props = {};
 
-export default function About({}: Props) {
+export default function About({ }: Props) {
   return (
     <motion.div
       initial={{
@@ -32,14 +32,14 @@ export default function About({}: Props) {
         height={450}
         src={profilePic}
         className="-mb-28 md:mb-0 md:ml-16 flex-shrink-0 w-40 h-40 rounded-xl object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[350px] xl:h-[450px]"
-        alt="nikhil kadam profile image"
+        alt="Dipta Chakraborty profile image"
         priority={false}
         placeholder="blur"
       />
 
       <div className="px-0 md:px-8 lg:px-20 text-black dark:text-white">
         <h4 className="text-3xl md:text-4xl font-semibold mt-8 lg:mt-2 font-outfit lg:ml-6 md:ml-6">
-          Rahul Dey
+          Dipta Chakraborty
         </h4>
 
         <div className="bg-blue-300/20 dark:bg-blue-300/10 py-[6px] md:ml-6 inline-flex items-center rounded-2xl gap-1 mt-2 text-blue-600">
@@ -65,7 +65,7 @@ export default function About({}: Props) {
             ></path>
           </svg>
           <p className="font-outfit mr-5 text-[12px] font-light">
-            B.Tech CSE Student - ICFAI University Tripura
+            Project Assistant - ICFAI University Tripura
           </p>
         </div>
 
@@ -73,18 +73,18 @@ export default function About({}: Props) {
           Welcome to my digital abode! <br />
           <br /> I am a{" "}
           <span className="text-blue-500 font-semibold">
-            Sofware Developer & IoT Engineer
+            Electrical & Electronics Engineer
           </span>{" "}
-          Passionate about building scalable and user-friendly web applications. I enjoy solving complex problems with efficient and elegant solutions, blending software development with IoT innovation. 🚀
+          Passionate about  startup incubation, project mentorship, and innovation coordination. I enjoy solving complex problems with efficient and elegant solutions, blending skill development with innovation. 🚀
           <br />
-          <br />I am also the co-founder of{" "}
+          <br />Project Assistant in{" "}
           <span className="text-blue-500 font-semibold">
             <a
-              href="https://www.apnividya.in/"
+              href="https://iutripura.edu.in/"
               target={"_blank"}
               rel="noreferrer"
             >
-              Apni Vidhya
+              ICFAI University Tripura
               <span className="inline-flex text-black dark:text-white">
                 <svg
                   className="with-icon_icon__MHUeb"
@@ -110,10 +110,10 @@ export default function About({}: Props) {
               </span>
             </a>
           </span>
-          , a startup company Funded by the DIT.
-          <br /> <br /> Outside of technology, I love reading about psychology and philosophy while enjoying {" "}
+          under the DIT NGIN Project.
+          <br /> <br /> Outside of technology, I love singing and reading about psychology and philosophy while enjoying a {" "}
           <span className="text-blue-500 font-semibold">
-            fresh cup of coffee!
+            fresh cup of coffee! ☕📖🎶
           </span>
         </p>
       </div>
