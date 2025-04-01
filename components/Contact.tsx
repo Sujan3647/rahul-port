@@ -1,6 +1,6 @@
 type Props = {};
 
-export default function Contact({}: Props) {
+export default function Contact({ }: Props) {
 
   return (
     <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
@@ -59,7 +59,7 @@ export default function Contact({}: Props) {
               </svg>
             </span>
           </p>
-          <p className="hover:text-black dark:hover:text-gray-300 duration-200">
+          {/* <p className="hover:text-black dark:hover:text-gray-300 duration-200">
             <a href="https://twitter.com/NickK2305">twitter</a>
             <span className="inline-flex">
               <svg
@@ -80,9 +80,9 @@ export default function Contact({}: Props) {
                 <path d="M7 7h10v10"></path>
               </svg>
             </span>
-          </p>
+          </p> */}
           <p className="hover:text-black dark:hover:text-gray-300 duration-200">
-            <a href="https://www.linkedin.com/in/nickk2305/">linkedin</a>
+            <a href="https://www.linkedin.com/in/">linkedin</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -105,7 +105,7 @@ export default function Contact({}: Props) {
           </p>
 
           <p className="hover:text-black dark:hover:text-gray-300 duration-200">
-            <a href="https://github.com/Nick-h4ck3r">github</a>
+            <a href="https://github.com/dipta">github</a>
             <span className="inline-flex">
               <svg
                 className="with-icon_icon__MHUeb"
@@ -131,10 +131,10 @@ export default function Contact({}: Props) {
         <h5 className="mt-28">
           <p className="text-xl font-md font-outfit text-gray-900 dark:text-gray-200 md:ml-5">
             or drop a mail at{" "}
-            <a href="mailto:nickkadam23@gmail.com" className="cursor-pointer">
+            <a href="mailto:chakraborty8731@gmail.com" className="cursor-pointer">
               <span className="link link-underline link-underline-black">
                 {" "}
-                nickkadam23@gmail.com
+                chakraborty8731@gmail.com
               </span>
             </a>
             <span className="inline-flex dark:text-white text-black">
@@ -169,10 +169,10 @@ export default function Contact({}: Props) {
           <span className="text-blue-500">
             <a
               target={"_blank"}
-              href="https://twitter.com/NickK2305"
+              href="https://www.instagram.com/diptachakrabortydc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               rel="noreferrer"
             >
-              nikhil
+              Dipta
             </a>
           </span>
         </p>
